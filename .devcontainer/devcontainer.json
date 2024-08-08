@@ -2,15 +2,15 @@
 {
 	"name": "DP Node22",
 	"image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm",
-	"forwardPorts": [
-		3000
-	],
-	"postCreateCommand": "node -v",
 	"customizations": {
 		"vscode": {
 			"extensions": [
 				"dbaeumer.vscode-eslint"
 			]
 		}
-	}
+	},
+	"forwardPorts": [
+		3000
+	],
+	"postCreateCommand": "node -v && git config --global --add safe.directory /workspaces/*"
 }
