@@ -28,12 +28,20 @@
   transition: 0.2s ease-in;
 }
 
+img.svg-icon {
+  width: 1.25rem;
+}
+
 .facebook i {
   background-color: $faceBook;
 }
 
 .linkedin i {
   background-color: $linkedin;
+}
+
+.leetcode i {
+  background-color: $leetcode;
 }
 
 .github i {
@@ -74,6 +82,7 @@
 .gitlab i:hover,
 .github i:hover,
 .linkedin i:hover,
+.leetcode i:hover,
 .facebook i:hover,
 .instagram i:hover,
 .stack-overflow i:hover,
