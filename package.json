@@ -28,7 +28,8 @@
     "react-headroom": "^3.2.1",
     "react-reveal": "^1.2.2",
     "react-scripts": "^5.0.1",
-    "react-twitter-embed": "^4.0.4"
+    "react-twitter-embed": "^4.0.4",
+    "sass": "^1.77.8"
   },
   "eslintConfig": {
     "extends": "react-app"
