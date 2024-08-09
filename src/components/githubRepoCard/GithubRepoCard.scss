@@ -10,6 +10,7 @@
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
+
 .repo-card-div:hover {
   box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
 }
@@ -59,7 +60,8 @@
   color: $githubRepoCardRepoNameColor;
   margin-bottom: 0.75rem;
   font-size: 25px;
-  font-weight: 700;
+  font-family: $boldFont, sans-serif;
+  font-weight: bold;
   letter-spacing: -0.5px;
   overflow: hidden;
   margin: 0px;
@@ -81,6 +83,7 @@
   background-color: $darkBackground;
   color: $textColorDark;
 }
+
 .dark-card-mode p {
   color: $textColorDark;
 }

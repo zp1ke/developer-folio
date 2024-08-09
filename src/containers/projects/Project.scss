@@ -1,6 +1,6 @@
 .project-title {
   font-size: 52px;
-  font-weight: 400;
+  font-weight: normal;
   line-height: normal;
 }
 
@@ -21,11 +21,13 @@
     font-size: 40px;
   }
 }
+
 @media (max-width: 768px) {
   .project-title {
     font-size: 30px;
     text-align: center;
   }
+
   .repo-cards-div-main {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }

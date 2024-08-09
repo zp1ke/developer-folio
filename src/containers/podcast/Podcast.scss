@@ -2,7 +2,7 @@
 
 .podcast-header-title {
   font-size: 56px;
-  font-weight: 400;
+  font-weight: normal;
   line-height: 0px;
 }
 
@@ -15,6 +15,7 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1rem 1rem;
 }
+
 .subTitle {
   color: $subTitle;
 }
@@ -24,6 +25,7 @@
     font-size: 30px;
     text-align: center;
   }
+
   .podcast-header-subtitle {
     font-size: 16px;
     line-height: normal;
@@ -33,6 +35,7 @@
   .podcast {
     width: 300px;
   }
+
   .podcast-main-div {
     text-align: center;
   }

@@ -5,7 +5,7 @@
   flex-direction: row;
 }
 
-.education-card:hover + .education-card-border {
+.education-card:hover+.education-card-border {
   border-color: $educationCardBorder;
   width: 100%;
   -webkit-transition: width 0.6s ease-in-out;
@@ -33,7 +33,8 @@
 .education-text-school {
   margin: 0;
   font-size: 28px;
-  font-weight: 700;
+  font-family: $boldFont, sans-serif;
+  font-weight: bold;
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
@@ -55,7 +56,8 @@
 
 .education-text-subHeader {
   color: $textColor;
-  font-weight: 700;
+  font-family: $boldFont, sans-serif;
+  font-weight: bold;
   font-size: 19px;
   margin: 0px;
   padding-top: 0.8rem;
@@ -74,7 +76,7 @@
   margin-bottom: 0.5rem;
 }
 
-.education-text-bullets > ul {
+.education-text-bullets>ul {
   margin-top: 0.5rem;
 }
 
@@ -85,23 +87,29 @@
     flex-direction: column;
     padding-bottom: 10px;
   }
+
   .education-card-right {
     max-width: 90%;
   }
+
   .education-card-border {
     width: 90%;
   }
+
   .education-text-subHeader {
     padding-top: 0.5rem;
     font-size: 16px;
   }
+
   .education-text-school {
     font-size: 20px;
     height: 23px;
   }
+
   .education-text-duration {
     font-size: 16px;
   }
+
   .education-roundedimg {
     width: 4rem;
     height: 4rem;
@@ -114,12 +122,15 @@
   .education-card {
     text-align: center;
   }
+
   .education-card-right {
     max-width: 100%;
   }
+
   .education-card-border {
     width: 100%;
   }
+
   .education-roundedimg {
     margin-top: 10px;
     width: 4rem;
@@ -127,7 +138,8 @@
     margin-bottom: 1rem;
     margin-right: 0;
   }
-  .education-text-bullets > ul {
+
+  .education-text-bullets>ul {
     max-width: 80%;
     margin: auto;
   }
