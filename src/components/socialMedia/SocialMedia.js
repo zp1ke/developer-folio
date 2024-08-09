@@ -1,7 +1,6 @@
 import React from "react";
 import "./SocialMedia.scss";
 import {socialMediaLinks} from "../../portfolio";
-import LeetCodeIcon from "../../assets/icons/leetcode.svg";
 
 export default function socialMedia() {
   if (!socialMediaLinks.display) {
@@ -40,9 +39,7 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab">
-            <img className="svg-icon" alt="LeetCode" src={LeetCodeIcon}></img>
-          </i>
+          <i className="fab fa-code"></i>
           <span></span>
         </a>
       ) : null}
@@ -55,6 +52,18 @@ export default function socialMedia() {
           rel="noopener noreferrer"
         >
           <i className="fas fa-envelope"></i>
+          <span></span>
+        </a>
+      ) : null}
+
+      {socialMediaLinks.googledev ? (
+        <a
+          href={socialMediaLinks.googledev}
+          className="icon-button google"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fas fa-google"></i>
           <span></span>
         </a>
       ) : null}
