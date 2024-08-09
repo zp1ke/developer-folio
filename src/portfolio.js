@@ -155,7 +155,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "UCI (University of Computer Sciences)",
-      logo: require("./assets/images/harvardLogo.png"),
+      logo: require("./assets/images/uciLogo.jpeg"),
       subHeader: "ENGiNEERiNG iN COMPUTER SCiENCE",
       duration: "September 2008 - March 2014",
       desc: "Havana, Cuba. Took courses about Software Engineering, Web Security, Operating Systems, ...",
@@ -166,7 +166,7 @@ const educationInfo = {
     },
     {
       schoolName: "CUJAE (Technological University of Havana)",
-      logo: require("./assets/images/stanfordLogo.png"),
+      logo: require("./assets/images/cujaeLogo.jpg"),
       subHeader: "MECHANiCAL ENGiNEERiNG",
       duration: "September 2000 - July 2005",
       desc: "Havana, Cuba. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -207,7 +207,7 @@ const workExperiences = {
     {
       role: "Software Engineer & CTO",
       company: "Touwolf Technologies",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      companylogo: require("./assets/images/eqonLogo.jpeg"),
       date: "April 2014 – Present",
       desc: "Led the development of SaaS platforms, mobile and web apps that provided services automation, reduced costs and increased productivity.",
       descBullets: [
