@@ -50,10 +50,10 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "FULL STACK DEVELOPER WHO ENJOYS WORKING WITH (almost?) ALL TECH STACKS",
+  subTitle: emoji("FULL STACK DEVELOPER 👨‍💻 WHO ENJOYS WORKING WITH (almost?) ALL TECH STACKS (in no particular order)"),
   skills: [
-    emoji("⚡ Analytical Thinking, Team Player, Problem Solving"),
-    emoji("⚡ Adaptability, Critical thinking, Communication, Self‑Motivation."),
+    emoji("📡🙌 Analytical Thinking, Team Player, Problem Solving"),
+    emoji("🌐💻 Adaptability, Critical thinking, Communication, Self‑Motivation."),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -62,55 +62,87 @@ https://fontawesome.com/icons?d=gallery */
   softwareSkills: [
     {
       skillName: "Java",
-      fontAwesomeClassname: "fab fa-java"
+      fontAwesomeClassname: "nf nf-dev-java",
     },
     {
       skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      fontAwesomeClassname: "nf nf-dev-javascript"
     },
     {
       skillName: "Dart",
-      fontAwesomeClassname: "fab fa-dart-lang"
+      fontAwesomeClassname: "nf nf-seti-dart"
     },
     {
       skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      fontAwesomeClassname: "nf nf-dev-html5"
     },
     {
       skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      fontAwesomeClassname: "nf nf-dev-css3"
     },
     {
       skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      fontAwesomeClassname: "nf nf-dev-react"
     },
     {
-      skillName: "flutter",
-      fontAwesomeClassname: "fab fa-flutter"
+      skillName: "android",
+      fontAwesomeClassname: "nf nf-dev-android"
     },
+    {
+      skillName: "springboot",
+      fontAwesomeClassname: "nf nf-seti-spring"
+    },
+    // {
+    //   skillName: "flutter",
+    //   fontAwesomeClassname: "fab fa-flutter"
+    // },
     {
       skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      fontAwesomeClassname: "nf nf-seti-docker"
     },
     {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
+      skillName: "mysql",
+      fontAwesomeClassname: "nf nf-dev-mysql"
+    },
+    {
+      skillName: "postgresql",
+      fontAwesomeClassname: "nf nf-dev-postgresql"
+    },
+    {
+      skillName: "mongodb",
+      fontAwesomeClassname: "nf nf-dev-mongodb"
+    },
+    {
+      skillName: "kotlin",
+      fontAwesomeClassname: "nf nf-seti-kotlin"
+    },
+    {
+      skillName: "maven",
+      fontAwesomeClassname: "nf nf-seti-maven"
+    },
+    {
+      skillName: "gradle",
+      fontAwesomeClassname: "nf nf-seti-gradle"
+    },
+    {
+      skillName: "git",
+      fontAwesomeClassname: "nf nf-dev-git"
     },
     {
       skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      fontAwesomeClassname: "nf nf-fa-aws"
     },
     {
       skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      fontAwesomeClassname: "nf nf-md-firebase"
     },
     {
       skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      fontAwesomeClassname: "nf nf-dev-swift"
     },
     {
       skillName: "PHP",
-      fontAwesomeClassname: "fab fa-php"
+      fontAwesomeClassname: "nf nf-dev-php"
     },
   ],
   display: true // Set false to hide this section, defaults to true
